@@ -1,0 +1,15 @@
+.U-title { /*Titulo con Google Font*/
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.compact { /*hr customized*/
+    border-top: 1px solid #000000;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 200px;
+}
