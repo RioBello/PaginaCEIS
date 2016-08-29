@@ -7,11 +7,22 @@
     padding-bottom: 5px;
 }
 
-.compact { /*hr customized*/
+.compact-lg { /*hr customized*/
     border-top: 1px solid #000000;
     margin-top: 10px;
     margin-bottom: 50px;
     width: 200px;
+}
+
+.compact-sm {
+    border-top: 1px solid #000000;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 115px;
+}
+
+.customContainer {
+    margin-top: 130px;
 }
 
 .footer {
