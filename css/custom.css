@@ -57,3 +57,14 @@
 
 
 }
+
+#forma_contacto{
+    padding: 10px 35%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+#forma_enviar{
+    text-align: right;
+    padding-top: 5px;
+}
