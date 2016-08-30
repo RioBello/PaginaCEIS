@@ -11,6 +11,13 @@
     border-top: 1px solid #000000;
     margin-top: 10px;
     margin-bottom: 50px;
+    width: 290px;
+}
+
+.compact-md { /*hr customized*/
+    border-top: 1px solid #000000;
+    margin-top: 10px;
+    margin-bottom: 50px;
     width: 200px;
 }
 
@@ -28,4 +35,16 @@
 .footer {
     padding-top: 25px;
     margin-top: 5px;
+}
+
+.login-form {
+
+    padding-left: 300px;
+    padding-right: 400px;
+    position:absolute;
+    top:35%;
+    right:0;
+    left:0;
+
+
 }
