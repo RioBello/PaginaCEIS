@@ -37,6 +37,15 @@
     margin-top: 5px;
 }
 
+.customFooter {
+    position: fixed;
+    bottom:25px;
+    width: inherit;
+    padding-top: 25px;
+    margin-top: 5px;
+    background-color: #ffffff;
+}
+
 .login-form {
 
     padding-left: 300px;
