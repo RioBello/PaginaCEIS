@@ -1,0 +1,74 @@
+.U-title { /*Titulo con Google Font*/
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.compact-lg { /*hr customized*/
+    border-top: 1px solid #000000;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 290px;
+}
+
+.compact-md { /*hr customized*/
+    border-top: 1px solid #000000;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 200px;
+}
+
+.compact-sm {
+    border-top: 1px solid #000000;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 115px;
+}
+
+.customContainer {
+    margin-top: 130px;
+}
+
+.footer {
+    padding-top: 25px;
+    margin-top: 5px;
+}
+
+.customFooter {
+    position: fixed;
+    bottom:25px;
+    width: inherit;
+    padding-top: 25px;
+    margin-top: 5px;
+    background-color: #ffffff;
+}
+
+.login-form {
+
+    padding-left: 300px;
+    padding-right: 400px;
+    position:absolute;
+    top:35%;
+    right:0;
+    left:0;
+
+
+}
+
+#forma_contacto{
+    padding: 10px 35%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+#forma_enviar{
+    text-align: right;
+    padding-top: 5px;
+}
