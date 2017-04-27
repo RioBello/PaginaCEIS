@@ -286,19 +286,19 @@
 
 
         <div id="forma_contacto">
-            <form>
+            <form method="post" name="myemailform" action="form-to-email.php">
 
                 <h4>Correo</h4>
-                <input type="email" class="form-control" placeholder="name@email.com" required >
+                <input type="email" name="name" class="form-control" placeholder="name@email.com" required >
 
                 <h4>Telefono</h4>
-                <input type="text" class="form-control" placeholder="+58 (4dd) ddd-dddd">
+                <input type="text" name="phone" class="form-control" placeholder="+58 (4dd) ddd-dddd">
 
                 <h4>Mensaje</h4>
-                <textarea class="form-control" rows="3" placeholder="Ejemplo :)"></textarea>
+                <textarea name="message" class="form-control" rows="3" placeholder="Ejemplo :)"></textarea>
 
                 <div id="forma_enviar">
-                    <a href="#" class="btn btn-primary" role="button">Enviar</a>
+                  <input class="btn btn-primary" role="button" type="submit" name='submit' value="Enviar"></input>
                 </div>
 
             </form>
